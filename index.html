@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HP Sprocket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="assets/img/fondo.png" as="image" />
+    <link rel="preload" href="assets/img/hero 2.png" as="image" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="site-header" aria-label="Navegacion principal">
+        <a class="brand" href="#inicio" aria-label="HP Sprocket inicio">
+          <img src="assets/img/logo hp.png" alt="HP" />
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="main-menu" aria-expanded="false">
+          <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+        </button>
+        <nav class="nav-links" id="main-menu">
+          <a href="#beneficios">Beneficios</a>
+          <a href="#app">App</a>
+          <a href="#despiece">Producto</a>
+          <a href="#zink">Tecnología Zink</a>
+          <a href="#usos">Usos</a>
+          <a href="#soporte">Soporte</a>
+        </nav>
+      </header>
+
+      <section class="hero" id="inicio" aria-label="HP Sprocket">
+        <div class="hero-copy">
+          <h2>Mini impresora HP Sprocket</h2>
+          <h1>Imprimí <span>tus momentos</span></h1>
+          <p>Convertí tus fotos digitales en recuerdos físicos personalizados para <br />imprimir, pegar y compartir tus momentos favoritos en cualquier lugar.</p>
+          <img class="hero-printer" src="assets/img/hero 2.png" alt="Impresora HP Sprocket blanca" />
+        </div>
+      </section>
+
+      <section class="benefits-section" id="beneficios" aria-label="Beneficios principales">
+        <article>
+          <span class="material-symbols-outlined" aria-hidden="true">backpack</span>
+          <h2>Compacta</h2>
+          <p>Guardala en tu mochila o cartera y tenela lista para imprimir cada recuerdo.</p>
+        </article>
+        <article>
+          <span class="material-symbols-outlined" aria-hidden="true">bluetooth</span>
+          <h2>Inalámbrica</h2>
+          <p>Conectala por Bluetooth desde tu celular e imprimí sin cables ni computadora.</p>
+        </article>
+        <article>
+          <span class="material-symbols-outlined" aria-hidden="true">sticky_note_2</span>
+          <h2>Fotos adhesivas</h2>
+          <p>Despegá el reverso de cada foto y pegala en journals, collages o agendas para seguir creando.</p>
+        </article>
+      </section>
+
+        <section class="app-section" id="app">
+          <div class="app-visual app-carousel" aria-label="Pantallas de la app HP Sprocket">
+            <div class="app-carousel-frame">
+              <img class="app-carousel-image" src="assets/img/app 1.png" alt="Pantalla de selección de fotos en la app HP Sprocket" />
+            </div>
+            <div class="app-carousel-dots" aria-label="Cambiar pantalla de la app">
+              <button class="app-dot is-active" type="button" data-app-slide="0" aria-label="Ver pantalla 1"></button>
+              <button class="app-dot" type="button" data-app-slide="1" aria-label="Ver pantalla 2"></button>
+              <button class="app-dot" type="button" data-app-slide="2" aria-label="Ver pantalla 3"></button>
+            </div>
+          </div>
+        <div class="app-copy">
+          <h2>Antes de imprimir, hacelo tuyo</h2>
+          <p>La app HP Sprocket convierte cada foto en una pieza lista para crear, con herramientas simples para editar, decorar y mandar a imprimir.</p>
+          <div class="app-tools" aria-label="Herramientas de personalización">
+            <button class="app-step is-active" type="button" data-app-slide="0">
+              <strong>Inicio</strong>
+              <span>Conectá tu Sprocket y elegí desde dónde querés empezar.</span>
+            </button>
+            <button class="app-step" type="button" data-app-slide="1">
+              <strong>Edición</strong>
+              <span>Sumá marcos, stickers, texto y filtros antes de imprimir.</span>
+            </button>
+            <button class="app-step" type="button" data-app-slide="2">
+              <strong>Impresión</strong>
+              <span>Revisá tu foto final y mandala a imprimir en segundos.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="parts-section" id="despiece">
+        <div class="parts-heading">
+          <h2>Conocé cada parte de HP Sprocket</h2>
+          <p>Tocá cada punto para ver cómo se combinan luz, papel, batería y tecnología sin tinta en una impresora compacta, portátil y pensada para acompañarte todos los días.</p>
+        </div>
+        <div class="parts-stage">
+          <article class="part-info part-info-right is-active" data-part-panel="led" data-part-number="1">
+            <h3>Luz LED</h3>
+            <p>Indica el estado de impresión<br />y te avisa cuando la foto<br />está lista para salir.</p>
+          </article>
+          <article class="part-info part-info-left" data-part-panel="zink" data-part-number="2">
+            <h3>Tecnología Zink</h3>
+            <p>Imprime a color sin tinta<br />ni cartuchos usando calor<br />sobre papel especial.</p>
+          </article>
+          <article class="part-info part-info-right" data-part-panel="paper" data-part-number="3">
+            <h3>Papel fotográfico</h3>
+            <p>Carga hasta 20 hojas adhesivas<br />de 2 × 3 pulgadas e imprime<br />cada recuerdo en segundos.</p>
+          </article>
+          <article class="part-info part-info-left" data-part-panel="battery" data-part-number="4">
+            <h3>Batería</h3>
+            <p>Recargable de 500 mAh,<br />lista para acompañarte y volver<br />al 100% en 90 minutos.</p>
+          </article>
+          <article class="part-info part-info-right" data-part-panel="usb" data-part-number="5">
+            <h3>Puerto USB-C</h3>
+            <p>Entrada de carga compacta<br />para conectar la impresora<br />y tenerla lista en 90 minutos.</p>
+          </article>
+          <img src="assets/img/despiece.png" alt="Despiece visual de HP Sprocket" />
+          <button class="part-dot dot-led is-active" type="button" data-part="led" data-part-number="1" aria-label="Ver luz LED"></button>
+          <button class="part-dot dot-zink" type="button" data-part="zink" data-part-number="2" aria-label="Ver tecnología Zink"></button>
+          <button class="part-dot dot-paper" type="button" data-part="paper" data-part-number="3" aria-label="Ver papel 2 por 3"></button>
+          <button class="part-dot dot-battery" type="button" data-part="battery" data-part-number="4" aria-label="Ver batería"></button>
+          <button class="part-dot dot-usb" type="button" data-part="usb" data-part-number="5" aria-label="Ver puerto USB-C"></button>
+        </div>
+      </section>
+
+      <section class="zink-section" id="zink">
+        <div class="zink-heading">
+          <h2>Tecnología Zink:<span>color sin tinta ni cartuchos</span></h2>
+          <p>El papel Zink ya contiene las capas necesarias para revelar color con calor, sin recargas, cartuchos ni manchas.</p>
+        </div>
+        <div class="zink-cards">
+          <article>
+            <span class="material-symbols-outlined" aria-hidden="true">grain</span>
+            <h3>Cristales de color</h3>
+            <p>El papel integra capas listas para revelar la imagen, sin tinta líquida ni cartuchos.</p>
+          </article>
+          <article>
+            <span class="material-symbols-outlined" aria-hidden="true">local_fire_department</span>
+            <h3>Activación por calor</h3>
+            <p>El calor activa cada tono y revela la imagen sobre el papel.</p>
+          </article>
+          <article>
+            <span class="material-symbols-outlined" aria-hidden="true">sticky_note_2</span>
+            <h3>Lista para pegar</h3>
+            <p>Cada foto sale seca, sin manchas y con reverso adhesivo para usarla donde quieras.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="carousel-section" id="usos" aria-label="Ideas para recuerdos">
+        <h2 class="slider-title">Siempre con vos. Sin límites. Hecha para crear.</h2>
+        <div class="slider">
+          <div class="slides" aria-live="polite">
+            <img class="side-slide" src="assets/img/uso 4.png" alt="" />
+            <button class="slider-btn prev" type="button" aria-label="Slide anterior">
+              <span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>
+            </button>
+            <article class="active-slide">
+              <div class="slide-image-frame">
+                <img src="assets/img/journal.png" alt="Journal con fotos impresas HP Sprocket" />
+              </div>
+              <p class="slide-caption"><strong>Journal.</strong><span>Guardá ideas, viajes y momentos cotidianos en páginas que se sienten tuyas.</span></p>
+            </article>
+            <button class="slider-btn next" type="button" aria-label="Slide siguiente">
+              <span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>
+            </button>
+            <img class="side-slide" src="assets/img/usos 2.png" alt="" />
+          </div>
+        </div>
+        <div class="usage-dots" aria-label="Cambiar uso">
+          <button class="usage-dot is-active" type="button" data-usage-slide="0" aria-label="Ver uso 1"></button>
+          <button class="usage-dot" type="button" data-usage-slide="1" aria-label="Ver uso 2"></button>
+          <button class="usage-dot" type="button" data-usage-slide="2" aria-label="Ver uso 3"></button>
+          <button class="usage-dot" type="button" data-usage-slide="3" aria-label="Ver uso 4"></button>
+        </div>
+        <div class="mobile-slide-list" aria-label="Características de HP Sprocket">
+          <article>
+            <img src="assets/img/journal.png" alt="Journal con fotos impresas HP Sprocket" />
+            <p><strong>Journal.</strong><span>Guardá ideas, viajes y momentos cotidianos en páginas que se sienten tuyas.</span></p>
+          </article>
+          <article>
+            <img src="assets/img/usos 2.png" alt="Mesa con recuerdos impresos y objetos cotidianos" />
+            <p><strong>Momentos.</strong><span>Convertí cafés, salidas, recitales y viajes en recuerdos que podés tocar.</span></p>
+          </article>
+          <article>
+            <img src="assets/img/uso 3.png" alt="Espacio decorado con fotos impresas" />
+            <p><strong>Decoración.</strong><span>Armá collages, paredes y rincones con fotos que acompañan tu espacio.</span></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq-section" id="faq">
+        <div class="faq-copy">
+          <h2>Preguntas frecuentes</h2>
+          <p>Lo esencial antes de imprimir tus primeros recuerdos.</p>
+        </div>
+        <div class="accordion faq-list">
+          <details open>
+            <summary>¿Necesita tinta? <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+            <div class="accordion-content">
+              <p>No. Usa tecnología Zink, que imprime a color mediante calor sobre papel especial.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Qué tamaño tienen las fotos? <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+            <div class="accordion-content">
+              <p>Las impresiones son de 2 × 3 pulgadas, ideales para journals, collages y recuerdos pequeños.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Las fotos son adhesivas? <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+            <div class="accordion-content">
+              <p>Sí. El reverso adhesivo permite pegarlas en superficies lisas, agendas, álbumes o paredes.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cómo se conecta al celular? <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+            <div class="accordion-content">
+              <p>Se conecta por Bluetooth desde la app HP Sprocket para editar, personalizar e imprimir.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Cuánto tarda en imprimir? <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+            <div class="accordion-content">
+              <p>Cada foto se imprime en pocos segundos, lista para tocar, compartir o pegar.</p>
+            </div>
+          </details>
+          <details>
+            <summary>¿Se puede llevar todos los días? <span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+            <div class="accordion-content">
+              <p>Sí. Su formato compacto permite guardarla en mochila, cartera o tote bag.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <footer class="footer-section" id="soporte" aria-label="Soporte HP Sprocket">
+        <div class="footer-brand">
+          <h2>HP Sprocket</h2>
+          <p>Mini impresora portátil para crear recuerdos físicos desde tus fotos favoritas.</p>
+          <div class="footer-social" aria-label="Redes sociales">
+            <a href="https://x.com/HP" target="_blank" rel="noopener noreferrer" aria-label="HP en X">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M18.2 2.5h3.4l-7.4 8.4 8.7 10.6h-6.8l-5.3-6.5-6.1 6.5H1.3l7.9-8.6L.9 2.5h7l4.8 6 5.5-6Zm-1.2 17.1h1.9L6.9 4.3h-2l12.1 15.3Z" />
+              </svg>
+            </a>
+            <a href="https://www.facebook.com/HP" target="_blank" rel="noopener noreferrer" aria-label="HP en Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14.1 8.1V6.4c0-.8.5-1 1.1-1h2.1V1.9L14.4 1.9c-3.2 0-4.9 1.9-4.9 5.1v1.1H6.3v3.8h3.2v10.2h4.1V11.9h3.2l.5-3.8h-3.2Z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/hp/" target="_blank" rel="noopener noreferrer" aria-label="HP en Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7.2 2h9.6A5.2 5.2 0 0 1 22 7.2v9.6a5.2 5.2 0 0 1-5.2 5.2H7.2A5.2 5.2 0 0 1 2 16.8V7.2A5.2 5.2 0 0 1 7.2 2Zm0 2A3.2 3.2 0 0 0 4 7.2v9.6A3.2 3.2 0 0 0 7.2 20h9.6a3.2 3.2 0 0 0 3.2-3.2V7.2A3.2 3.2 0 0 0 16.8 4H7.2Zm4.8 3.4a4.6 4.6 0 1 1 0 9.2 4.6 4.6 0 0 1 0-9.2Zm0 2a2.6 2.6 0 1 0 0 5.2 2.6 2.6 0 0 0 0-5.2Zm5-2.3a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Producto</h3>
+          <p>Mini impresora HP Sprocket</p>
+          <p>Fotos 2 × 3"</p>
+          <p>Papel autoadhesivo</p>
+          <p>Tecnología Zink®</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Funciones</h3>
+          <p>Compacta</p>
+          <p>Bluetooth</p>
+          <p>App HP Sprocket</p>
+          <p>Recargable por USB-C</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contactanos</h3>
+          <p>Buenos Aires, Argentina</p>
+          <p><strong>Teléfono:</strong> +54 11 4851 6804</p>
+          <p><strong>Email:</strong> soporte@hpsprocket.com.ar</p>
+        </div>
+
+        <div class="footer-credit">
+          <p>Diseñado por <strong>Rocío Daiana Rodriguez</strong></p>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
